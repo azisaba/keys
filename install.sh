@@ -10,7 +10,7 @@ parallel -C ' ' -a mapping.txt 'mkdir -p {2}/.ssh'
 parallel -C ' ' -a mapping.txt 'chmod -c 700 {2}/.ssh'
 parallel -C ' ' -a mapping.txt 'touch {2}/.ssh/authorized_keys'
 parallel -C ' ' -a mapping.txt 'chmod -c 600 {2}/.ssh/authorized_keys'
-parallel -C ' ' -a mapping.txt 'curl -o {2}/.ssh/authorized_keys https://raw.githubusercontent.com/AzisabaNetwork/azisabash/master/key/{1}.keys'
+parallel -C ' ' -a mapping.txt 'cp -f keys/{1}.keys {2}/.ssh/authorized_keys'
 parallel -C ' ' -a mapping.txt 'chown -Rc {1}: {2}/.ssh'
 
 parallel -C ' ' -a mapping.txt '{4} && ln -nfs /opt/resourcepacks {2}/resourcepacks || true'
