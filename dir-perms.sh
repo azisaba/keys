@@ -2,9 +2,12 @@
 
 set -eux
 
-chmod -Rc 777 /opt/resourcepacks
 chmod -c 700 /opt/logger
 chmod -c 700 /opt/support
+
+chmod -c 755 /opt/resourcepacks
+chmod -c 666 /opt/resourcepacks/*.zip
+setfacl -d -m u::rwX,g::rwX,o::rwX /opt/resourcepacks
 
 parallel -j 1 'addgroup -S {/}' ::: /opt/minecraft/*
 parallel 'find {} -type d -print0 | xargs -0 chmod -c g+s' ::: /opt/minecraft/*
