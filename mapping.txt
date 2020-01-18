@@ -2,7 +2,6 @@ YukiLeafX /home/YukiLeafX wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee true
 siloneco /home/siloneco wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee true
 Mori01231 /home/Mori01231 wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee true
 Mizinkobusters /home/Mizinkobusters lgw:main:pata:lobby:parkour:p:pvp:bungee true
-papiyonnn /home/papiyonnn lgw:parkour true
 NR_3 /home/NR_3 lgw true
 Uekibachi /home/Uekibachi lgw true
 mi_0711 /home/mi_0711 lgw true
