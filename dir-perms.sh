@@ -2,8 +2,8 @@
 
 set -eux
 
-chmod -c 700 /opt/logger
-chmod -c 700 /opt/support
+chmod -c 700 /srv/discord/logger
+chmod -c 700 /srv/discord/support
 
 chmod -c 755 /opt/resourcepacks
 chmod -c 666 /opt/resourcepacks/*.zip
