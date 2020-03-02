@@ -2,6 +2,7 @@
 
 set -eux
 
+chmod -c 777 /opt/resourcepacks
 chmod -c 666 /opt/resourcepacks/*.zip
 setfacl -d -m u::rwX,g::rwX,o::rwX /opt/resourcepacks
 
