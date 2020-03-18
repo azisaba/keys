@@ -7,3 +7,5 @@ mi_0711 /home/mi_0711 lgw true
 Y_RyuZU /home/Y_RyuZU lgw:wave true
 elicode /home/elicode parkour true
 RYOAIKAWA /home/RYOAIKAWA lgw true
+sugarstar310 /home/sugarstar310 lgw true
+Tukimiy_ /home/Tukimiy_ lgw true
