@@ -9,3 +9,4 @@ elicode /home/elicode parkour true
 RYOAIKAWA /home/RYOAIKAWA lgw true
 sugarstar310 /home/sugarstar310 lgw true
 Tukimiy_ /home/Tukimiy_ lgw true
+Uekibachi /home/Uekibachi lgw true
