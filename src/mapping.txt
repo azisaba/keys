@@ -1,3 +1,4 @@
+ledlaggazi /home/ledlaggazi wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee:wave true
 YukiLeafX /home/YukiLeafX wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee:wave true
 siloneco /home/siloneco wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee:wave true
 Mori01231 /home/Mori01231 wheel:lgw:main:pata:lobby:parkour:p:pvp:bungee:wave true
