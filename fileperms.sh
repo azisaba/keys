@@ -16,5 +16,4 @@ parallel 'find {} -type d -print0 | xargs -0 setfacl -d -m u::rwX,g::rwX,o::rX' 
 chmod -c 700 /srv/discord/logger
 chmod -c 700 /srv/discord/support
 
-chmod -c 600 /srv/secrets/wordpress.txt
-chmod -c 600 /srv/secrets/dns-cloudflare.txt
+chmod -c 600 /srv/secrets/*.txt
