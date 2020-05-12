@@ -9,7 +9,7 @@ mi_0711 /home/mi_0711 lgw true
 Y_RyuZU /home/Y_RyuZU lgw:wave:life true
 elicode /home/elicode parkour true
 RYOAIKAWA /home/RYOAIKAWA lgw true
-sugarstar310 /home/sugarstar310 lgw:life true
+sugarstar310 /home/sugarstar310 lgw:life:pvp true
 Tukimiy_ /home/Tukimiy_ lgw true
 Uekibachi /home/Uekibachi lgw true
 AMAMUK_BEAR /home/AMAMUK_BEAR lgw true
