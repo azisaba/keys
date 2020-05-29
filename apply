@@ -1,0 +1,49 @@
+#!/bin/ash
+
+set -eux
+
+# Auto AGREE parallel command
+echo 'will cite' | parallel --citation
+
+# Add users
+parallel -C ' ' -a src/mapping.txt -j 1 'adduser -D -h {2} {1} || :'
+
+# SECURE ALL USER PASSWORD
+parallel -C ' ' -a src/mapping.txt -j 1 'printf "$(openssl rand -base64 15)\n%.0s" 1 2 | passwd {1}'
+
+# Install SSH keys
+parallel -C ' ' -a src/mapping.txt 'mkdir -pv {2}/.ssh'
+parallel -C ' ' -a src/mapping.txt 'chmod -c 700 {2}/.ssh'
+parallel -C ' ' -a src/mapping.txt 'touch {2}/.ssh/authorized_keys'
+parallel -C ' ' -a src/mapping.txt 'chmod -c 600 {2}/.ssh/authorized_keys'
+parallel -C ' ' -a src/mapping.txt 'cp -fv keys/{1}.keys {2}/.ssh/authorized_keys'
+parallel -C ' ' -a src/mapping.txt 'chown -Rc {1}: {2}/.ssh'
+
+# Install file shortcuts to ALL USER HOME
+parallel -C ' ' -a src/mapping.txt '{4} && ln -vnfs /srv/azifry/data/resourcepacks {2}/resourcepacks || :'
+parallel -C ' ' -a src/mapping.txt '{4} && ln -vnfs /opt/minecraft/lgw/plugins {2}/lgwplugins || :'
+parallel -C ' ' -a src/mapping.txt '{4} && ln -vnfs /opt/minecraft {2}/server || :'
+parallel -C ' ' -a src/mapping.txt '{4} && find {2} -mindepth 1 -maxdepth 1 -type l -print0 | xargs -0 chown -hc {1}: || :'
+
+# Fixup resourcepacks file permission
+chmod -c 777 /srv/azifry/data/resourcepacks
+chmod -c 666 /srv/azifry/data/resourcepacks/*.zip
+setfacl -d -m u::rwX,g::rwX,o::rwX /srv/azifry/data/resourcepacks
+
+# Fixup server secret file permission
+chmod -c 600 /srv/azifry/secrets/*
+
+# Add and fixup minecraft file permission
+parallel -j 1 'addgroup -S {/} || :' ::: /opt/minecraft/*
+parallel 'find {} -type d -print0 | xargs -0 chmod -c g+s' ::: /opt/minecraft/*
+parallel 'chgrp -Rc {/} {}' ::: /opt/minecraft/*
+parallel 'chmod -c o-rwx {}' ::: /opt/minecraft/*
+parallel 'chmod -Rc g+w {}' ::: /opt/minecraft/*
+parallel 'find {} -type d -print0 | xargs -0 setfacl -d -m u::rwX,g::rwX,o::rX' ::: /opt/minecraft/*
+
+# Fixup discord bots file permission
+chmod -c 700 /srv/discord/colorful-discord
+chmod -c 700 /srv/discord/support
+
+# Fixup ALL USER GROUPS
+parallel -C ' ' -a src/mapping.txt -j 1 'echo -n {3} | tr : "\x0" | xargs -0t -n 1 adduser {1} || :'
