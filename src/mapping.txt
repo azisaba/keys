@@ -15,3 +15,6 @@ Uekibachi /home/Uekibachi lgw true
 AMAMUK_BEAR /home/AMAMUK_BEAR lgw true
 kirisiokun /home/kirisiokun lgw:life true
 Mr_El_Capitan /home/Mr_El_Capitan rpg true
+46ne5 /home/46ne5 lgw:life true
+Uekibachi /home/Uekibachi lgw true
+Cake1266 /home/Cake1266 lgw true
