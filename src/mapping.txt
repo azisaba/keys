@@ -21,3 +21,4 @@ Cake1266 /home/Cake1266 lgw true
 JKchibi /home/JKchibi chibi true
 pichipichi_16384 /home/pichipichi_16384 chibi true
 ghost_46 /home/ghost_46 life true
+21sai /home/21sai chibi true
