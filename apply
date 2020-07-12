@@ -42,8 +42,8 @@ parallel 'chmod -Rc g+w {}' ::: /opt/minecraft/*
 parallel 'find {} -type d -print0 | xargs -0 setfacl -d -m u::rwX,g::rwX,o::rX' ::: /opt/minecraft/*
 
 # Fixup discord bots file permission
-chmod -c 700 /srv/discord/colorful-discord
-chmod -c 700 /srv/discord/support
+# chmod -c 700 /srv/discord/colorful-discord
+# chmod -c 700 /srv/discord/support
 
 # Fixup ALL USER GROUPS
 parallel -C ' ' -a src/mapping.txt -j 1 'echo -n {3} | tr : "\x0" | xargs -0t -n 1 adduser {1} || :'
