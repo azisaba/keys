@@ -4,7 +4,7 @@ siloneco /home/siloneco wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:
 Mori01231 /home/Mori01231 wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw true
 Mizinkobusters /home/Mizinkobusters lgw:main:lobby:parkour:pvp:bungee:wave true
 Bounen057 /home/Bounen057 lgw:main:lobby:parkour:pvp:bungee:wave true
-NR_3 /home/NR_3 lgw:fsw true
+NR_3 /home/NR_3 lgw:fsw:life true
 mi_0711 /home/mi_0711 lgw true
 Y_RyuZU /home/Y_RyuZU lgw:wave:life:fsw true
 elicode /home/elicode parkour true
