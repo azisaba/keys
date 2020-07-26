@@ -7,7 +7,6 @@ Bounen057 /home/Bounen057 lgw:main:lobby:parkour:pvp:bungee:wave true
 NR_3 /home/NR_3 lgw:fsw:life true
 mi_0711 /home/mi_0711 lgw true
 Y_RyuZU /home/Y_RyuZU lgw:wave:life:fsw true
-elicode /home/elicode parkour true
 RYOAIKAWA /home/RYOAIKAWA lgw true
 sugarstar310 /home/sugarstar310 lgw:life:pvp:fsw true
 Tukimiy_ /home/Tukimiy_ lgw:fsw true
