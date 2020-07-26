@@ -2,7 +2,7 @@ ledlaggazi /home/ledlaggazi wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:ch
 YukiLeafX /home/YukiLeafX wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw true
 siloneco /home/siloneco wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw true
 Mori01231 /home/Mori01231 wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw true
-Mizinkobusters /home/Mizinkobusters lgw:main:lobby:parkour:pvp:bungee:wave true
+Mizinkobusters /home/Mizinkobusters lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw true
 Bounen057 /home/Bounen057 lgw:main:lobby:parkour:pvp:bungee:wave true
 NR_3 /home/NR_3 lgw:wave:life:fsw true
 mi_0711 /home/mi_0711 lgw true
