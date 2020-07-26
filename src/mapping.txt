@@ -21,3 +21,4 @@ ghost_46 /home/ghost_46 life true
 21sai /home/21sai chibi true
 lemengrab /home/lemengrab life true
 Angelcometfish /home/Angelcometfish life true
+elicode /home/elicode parkour false
