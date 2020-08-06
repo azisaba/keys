@@ -12,7 +12,7 @@ Tukimiy_ /home/Tukimiy_ lgw:fsw:lgwf true
 AMAMUK_BEAR /home/AMAMUK_BEAR lgw:lgwf true
 kirisiokun /home/kirisiokun lgw:life:lgwf true
 Mr_El_Capitan /home/Mr_El_Capitan rpg true
-46ne5 /home/46ne5 lgw:life:lgwf true
+46ne5 /home/46ne5 lgw:life:rpg:lgwf true
 Cake1266 /home/Cake1266 lgw:lgwf true
 JKchibi /home/JKchibi chibi true
 ghost_46 /home/ghost_46 life true
