@@ -22,3 +22,4 @@ Angelcometfish /home/Angelcometfish life true
 shinitaichan /home/shinitaichan pvp true
 Matcha_Tb /home/Matcha_Tb coretol true
 Leon___ /home/Leon___ lgwf true
+axtuki1 /home/axtuki1 parkour true
