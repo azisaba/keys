@@ -24,9 +24,6 @@ parallel -C ' ' -a src/mapping.txt '{4} && ln -vnfs /opt/minecraft/lgw/plugins {
 parallel -C ' ' -a src/mapping.txt '{4} && ln -vnfs /opt/minecraft {2}/server || :'
 parallel -C ' ' -a src/mapping.txt '{4} && find {2} -mindepth 1 -maxdepth 1 -type l -print0 | xargs -0 chown -hc {1}: || :'
 
-# Fixup server secret file permission
-chmod -c 600 /srv/azifry/secrets/*
-
 # Add and fixup minecraft file permission
 parallel -j 1 'addgroup -S {/} || :' ::: /opt/minecraft/*
 parallel 'find {} -type d -print0 | xargs -0 chmod -c g+s' ::: /opt/minecraft/*
