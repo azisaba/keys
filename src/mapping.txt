@@ -4,6 +4,7 @@ siloneco /home/siloneco wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:
 Mori01231 /home/Mori01231 wheel:lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw:lgwf:coretol:player_data true
 Mizinkobusters /home/Mizinkobusters lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw:lgwf:coretol true
 Y_RyuZU /home/Y_RyuZU lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw:lgwf:coretol true
+testusuke /home/testusuke lgw:main:lobby:parkour:pvp:bungee:wave:life:chibi:rpg:afk:fsw:lgwf:coretol true
 NR_3 /home/NR_3 lgw:wave:life:fsw:lgwf true
 mi_0711 /home/mi_0711 lgw:lgwf true
 RYOAIKAWA /home/RYOAIKAWA lgw:lgwf true
