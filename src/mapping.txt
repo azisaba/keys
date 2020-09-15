@@ -27,3 +27,4 @@ axtuki1 /home/axtuki1 parkour true
 Kazeha_black11 /home/Kazeha_black11 life true
 papi /home/papi event true
 amata1219 /home/amata1219 wheel:bungee:parkour:mksrv true
+_Be4_ /home/_Be4_ lgwf true
