@@ -30,3 +30,4 @@ amata1219 /home/amata1219 wheel:bungee:parkour:mksrv true
 _Be4_ /home/_Be4_ lgwf true
 mocchi2002 /home/mocchi2002 life true
 Flora30 /home/Flora30 coretol true
+mochinyan /home/mochinyan lgw true
