@@ -24,7 +24,7 @@ shinitaichan /home/shinitaichan pvp true
 Matcha_Tb /home/Matcha_Tb coretol true
 Leon___ /home/Leon___ lgwf true
 axtuki1 /home/axtuki1 parkour true
-Kazeha_black11 /home/Kazeha_black11 life:lifebuild:mts true
+Kazeha_black11 /home/Kazeha_black11 life:lifebuild:mts:lgwf true
 papi /home/papi event true
 amata1219 /home/amata1219 wheel:bungee:parkour:mksrv true
 _Be4_ /home/_Be4_ lgwf:sclat:sclattest:sclatsv1:sclatsv2 true
