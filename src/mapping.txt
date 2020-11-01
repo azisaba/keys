@@ -31,3 +31,4 @@ _Be4_ /home/_Be4_ lgwf:sclat:sclattest:sclatsv1:sclatsv2 true
 mocchi2002 /home/mocchi2002 life:lifebuild true
 Flora30 /home/Flora30 coretol true
 mochinyan /home/mochinyan lgw:lgwf true
+inakami173 /home/inakami173 conquest true
