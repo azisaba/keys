@@ -16,7 +16,7 @@ Mr_El_Capitan /home/Mr_El_Capitan rpg true
 46ne5 /home/46ne5 lgw:life:rpg:lgwf:mts true
 Cake1266 /home/Cake1266 lgw:lgwf true
 JKchibi /home/JKchibi chibi true
-ghost_46 /home/ghost_46 mts true
+ghost_46 /home/ghost_46 life:mts true
 21sai /home/21sai chibi true
 lemengrab /home/lemengrab life:lifebuild true
 Angelcometfish /home/Angelcometfish life:lifebuild true
